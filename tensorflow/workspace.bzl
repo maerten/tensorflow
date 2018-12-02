@@ -330,11 +330,11 @@ def tf_workspace(path_prefix="", tf_repo_name=""):
   tf_http_archive(
       name = "protobuf_archive",
       urls = [
-          "https://mirror.bazel.build/github.com/google/protobuf/archive/396336eb961b75f03b25824fe86cf6490fb75e3a.tar.gz",
-          "https://github.com/google/protobuf/archive/396336eb961b75f03b25824fe86cf6490fb75e3a.tar.gz",
+          "https://mirror.bazel.build/github.com/dinever/protobuf/archive/188578878eff18c2148baba0e116d87ce8f49410.tar.gz",
+          "https://github.com/dinever/protobuf/archive/188578878eff18c2148baba0e116d87ce8f49410.tar.gz",
       ],
-      sha256 = "846d907acf472ae233ec0882ef3a2d24edbbe834b80c305e867ac65a1f2c59e3",
-      strip_prefix = "protobuf-396336eb961b75f03b25824fe86cf6490fb75e3a",
+      sha256 = "7a1d96ccdf7131535828cad737a76fd65ed766e9511e468d0daa3cc4f3db5175",
+      strip_prefix = "protobuf-188578878eff18c2148baba0e116d87ce8f49410",
   )
 
   # We need to import the protobuf library under the names com_google_protobuf
